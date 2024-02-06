@@ -1,0 +1,49 @@
+body {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+}
+.nav-list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 0.5rem;
+}
+.nav-item {
+    padding: 0.5rem;
+    width: 3rem;
+    border: none;
+}
+.nav-item:hover {
+    background-color: goldenrod;
+    border-radius: 0.25rem;
+    
+}
+main {
+    margin: 0 250px;
+}
+.page {
+    display: none;
+}
+.product {
+    align-items: center;
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+}
+.cart-item {
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+}
+
+.add-to-cart {
+    margin-right: 0.5rem;
+}
+.del-from-cart {
+    margin-right: 0.5rem;
+}
